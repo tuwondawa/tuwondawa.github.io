@@ -1,0 +1,26 @@
+
+/*--- services ---*/
+
+.services {
+	padding: 100px 0;
+	.services-text {
+		border: $box-text-border;
+		margin-bottom: 30px;
+		padding: 40px 35px;
+		transition: all 0.5s ease 0s;		
+		i {
+			color: #3764eb;
+			font-size: 62px;
+		}
+		h4 {
+			color: $titleFont-color;
+			font-weight: 600;
+			line-height: 24px;
+		}
+	}
+	.services-text:hover
+		{
+			transform: scale(1.1);
+		}
+}
+

@@ -1,0 +1,64 @@
+
+
+/*--- footer ---*/
+
+footer {
+	background: rgba(0, 0, 0, 0) url("../images/fbackground.jpg") no-repeat scroll center 0 / cover;
+	color: $light-skyblue;
+	font-weight: 200;
+	line-height: 28px;
+	padding: 100px 0;
+	a {
+		color: $light-skyblue;
+	}
+	a:hover {
+		color: $green-color;
+	}
+	.w50 {
+		float: left;
+		width: 50%;
+	}
+	.w50 li {
+		margin-bottom: 10px;
+	}
+	.weight h4 {
+		color: $white-color;
+		font-size: 28px;
+		font-weight: 400;
+		margin-bottom: 30px;
+		letter-spacing: -1px;
+	}
+	.weight h5 a {
+		color: $white-color;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.time {
+		font-size: 12px;
+	}
+	.time::before {
+		color: $green-color;
+		content: "";
+		font-family: fontawesome;
+		margin-right: 10px;
+	}
+	.weight i {
+		color: $green-color;
+		float: left;
+		margin-right: 10px;
+		margin-top: 6px;
+	}
+	.weight span {
+		display: inline-block;
+		width: 86%;
+	}
+	.weight h5 {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.weight li {
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}

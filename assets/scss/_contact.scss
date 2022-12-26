@@ -1,0 +1,103 @@
+/*--- contact ---*/
+
+.contact-informations {
+	padding: 100px 0;
+	.contact-address {
+		margin-bottom: 30px;
+		padding: 0 35px;
+		transition: all 0.5s ease 0s;
+		hr {
+			border-color: $blue-color;
+			margin-bottom: 0px;
+		}
+		ul {
+			margin-top: 30px;
+		}
+		i {
+			color: #3764eb;
+			font-size: 62px;
+		}
+		h2 {
+			color: $titleFont-color;
+			font-weight: 600;
+			line-height: 24px;
+		}
+	}
+	.contact-text:hover {
+		transform: scale(1.1);
+	}
+	#map {
+		height: 380px;
+		width: 100%;
+	}
+}
+.contact-form {
+	background: $blue-color;
+	padding: 100px 0;
+	hr {
+		border-color: $white-color;
+	}
+	h2 {
+		color: $white-color;
+	}
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		background: none;
+		border: 1px solid $white-color;
+		color: $white-color;
+		float: left;
+		margin-bottom: 20px;
+		padding: 15px 30px;
+		width: 100%;
+	}
+	input[type="submit"] {
+		border: 1px solid $white-color;
+		background: none;
+		color: $white-color;
+		padding: 15px 30px;
+		text-transform: uppercase;
+		margin-top: 50px;
+	}
+	input:hover[type="submit"] {
+		border: 1px solid $green-color;
+		;
+		background: $green-color;
+		color: $white-color;
+	}
+	.name,
+	.email,
+	.subject,
+	.textarea {
+		float: left;
+		position: relative;
+		width: 100%;
+	}
+	.name::after,
+	.email::after,
+	.subject::after,
+	.textarea::after {
+		color: $white-color;
+		font-family: fontawesome;
+		font-size: 20px;
+		position: absolute;
+		right: 30px;
+		top: 20%;
+	}
+	.name::after {
+		content: "";
+	}
+	.email::after {
+		content: "";
+	}
+	.subject::after {
+		content: "";
+	}
+	.textarea::after {
+		content: "";
+	}
+	.contact-form-box {
+		margin: auto;
+		width: 50%;
+	}
+}

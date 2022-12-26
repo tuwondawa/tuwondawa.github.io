@@ -1,0 +1,37 @@
+
+/*--- main-header ---*/
+
+.main-header {
+	background: rgba(0, 0, 0, 0) url("../images/header.jpg") no-repeat scroll center 0 / cover;
+	height: 850px;
+	margin-top: 100px;
+}
+.main-header-text {
+	margin-top: 250px;
+}
+.main-header-text h3 {
+	color: $blue-color;
+}
+.main-header-text h1 {
+	font-size: 90px;
+	font-weight: 700;
+	color: $titleFont-color;
+	letter-spacing: $letter-spacing;
+}
+.main-header-text a {
+	background: $green-color none repeat scroll 0 0;
+	box-shadow: 1px 6px 9px rgba(0, 0, 0, 0.1);
+	color: $white-color;
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 50px;
+	padding: 20px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+}
+.main-header-text a:hover,
+.main-header-text a.active {
+	background: $blue-color;
+}
+

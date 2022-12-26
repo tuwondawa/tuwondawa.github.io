@@ -1,0 +1,199 @@
+/*--- responsive ---*/
+
+// Small devices (landscape phones, 320px and up)
+@media (min-width: 320px) and (max-width: 736px) {
+	.main-header-text {
+		margin-top: 100px;
+	}
+	.main-header-text h1 {
+		font-size: 38px;
+	}
+	.main-header {
+		height: 540px;
+	}
+	.top-nav li {
+		display: none;
+	}
+	.navbar-inverse .navbar-toggle {
+		background: $blue-color;
+		border-color: $blue-color;
+		margin-bottom: 18px;
+		margin-top: 18px;
+	}
+	.navbar-nav li {
+		float: left;
+		width: 100%;
+	}
+	.affix .nav.navbar-nav a {
+		height: 55px;
+		padding-bottom: 10px;
+	}
+	.navbar-inverse .navbar-collapse,
+	.navbar-inverse .navbar-form {
+		border-color: $primary-color;
+	}
+	.navbar-nav {
+		background: $white-color;
+		margin: 7.5px -15px;
+	}
+	.about {
+		overflow: hidden;
+	}
+	.client li {
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.about .about-text h2 {
+		font-size: 50px;
+	}
+	.about-img {
+		margin-top: 50px;
+	}
+	.features-img img {
+		width: 100%;
+	}
+	.features-hover img {
+		width: auto;
+	}
+	.features .features-img {
+		margin-bottom: 30px;
+	}
+	.title h4 {
+		font-size: 15px;
+	}
+	.insid-header-text h1 {
+    font-size: 30px;
+}
+	.insid-header-text h4 {
+    font-size: 14px;
+}
+	.insid-header-text {
+    margin: 200px auto auto;
+}
+.insid-header {
+    height: 587px;
+}
+	.features .features-img {
+    height: 229px;
+}
+	.title h2 {
+    font-size: 45px;
+}
+.in .nav.navbar-nav a,.in .nav.navbar-nav a:hover, in .nav.navbar-nav a:focus {
+    color: $titleFont-color;
+	padding-bottom: 15px;
+    padding-top: 15px;
+}
+	.navbar-inverse .navbar-nav .dropdown-menu.arrow a {
+    height: auto;
+    margin: 0 0 18px;
+    padding: 0;
+		padding-bottom: 15px;
+    padding-top: 15px;
+}
+	.nav.navbar-nav li::after
+	{
+		left: 0;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: medium none !important;
+    box-shadow: none;
+}
+	.client2 li {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	
+	.client li {
+    	width: 100%;
+		margin-bottom: 30px;
+	}
+	.client li:last-child,.client2 li:last-child{
+		margin-bottom: 0;
+	}
+	.blog-deatils .blog-img2 {
+    width: 100%;
+}
+	.blog-deatils .comments-area .offset2 {
+    margin-left: 0;
+}
+	.case-studies .case-studies-box .case-studies-box-hover {
+    transform: translateY(450px);
+}
+	.contact-form .contact-form-box {
+    width: 100%;
+}
+}
+
+@media (min-width: 400px) and (max-width: 736px) {
+	.insid-header {
+    height: 559px;
+}
+}
+
+// laptop devices (landscape phones, 1300px and up)
+@media (min-width: 1300px) and (max-width: 1440px) {
+	.main-header {
+		height: 650px;
+		margin-top: 100px;
+	}
+	.main-header-text {
+		margin-top: 150px;
+	}
+	.about {
+		overflow: hidden;
+	}
+	.about.about2 {
+		overflow: inherit;
+	}
+	.main-header-text h1 {
+		font-size: 70px;
+	}
+	.client2 li {
+		margin-bottom: 30px;
+		width: 33.33%;
+	}
+	.our-team-text img {
+		width: 100%;
+	}
+}
+
+// laptop devices (landscape phones, 1300px and up)
+@media (min-width: 768px) and (max-width: 1024px) {
+	.main-header {
+		height: 650px;
+		margin-top: 100px;
+	}
+	.main-header-text {
+		margin-top: 150px;
+	}
+	.about {
+		overflow: hidden;
+	}
+	.about.about2 {
+		overflow: inherit;
+	}
+	.main-header-text h1 {
+		font-size: 70px;
+	}
+	.client2 li {
+		margin-bottom: 30px;
+		width: 33.33%;
+	}
+	
+	.client li {
+    	width: 33.33%;
+		margin-bottom: 30px;
+	}
+	.blog-img2 {
+    width: 100%;
+}
+	.blog-deatils .bdrright img {
+    border: 2px;
+    border-radius: 50%;
+    width: 100%;
+}
+	.blog-deatils .comments-area .offset2 {
+    margin-left: 60px;
+}
+}

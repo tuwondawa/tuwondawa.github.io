@@ -1,0 +1,46 @@
+body {
+	font-family: $font-family;
+	font-weight: 300;
+	line-height: 24px;
+	color: $primary-color;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul {
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+}
+hr {
+	border-color: $green-color;
+	border-width: 4px;
+	display: inline-block;
+	margin-top: 0;
+	width: 80px;
+}
+.title {
+	margin-bottom: 100px;
+}
+.title h2 {
+	font-size: 60px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: $titleFont-color;
+	letter-spacing: $letter-spacing;
+}
+.title h4 {
+	color: $primary-color;
+	font-weight: 300;
+	line-height: 28px;
+}
+::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
+  color: $white-color;
+}
+
+::-moz-placeholder{
+  color: $white-color;
+}

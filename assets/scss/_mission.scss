@@ -1,0 +1,37 @@
+
+/*--- mission ---*/
+
+.mission {
+	padding: 100px 0;
+	background: rgba(0, 0, 0, 0) url("../images/mission-bg.jpg") no-repeat scroll center 0 / cover;
+	color: #fff;
+	text-align: center;
+	a {
+	border: 2px solid $white-color;
+	border-radius: 50%;
+	color: $white-color;
+	display: inline-block;
+	font-size: 19px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	margin-bottom: 30px;
+	width: 80px;
+	}
+	
+	h2 {
+	font-size: 60px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color:  $white-color;
+	letter-spacing: $letter-spacing;
+}
+	p
+	{
+		width: 80%;
+		margin: auto;
+		font-size: 18px;
+		line-height: $line-height;
+		margin-bottom: 50px;
+	}
+}

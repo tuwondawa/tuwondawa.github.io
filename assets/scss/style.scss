@@ -1,0 +1,45 @@
+/*--- 
+import
+navbar 
+main-header
+about
+features
+services
+px-bg
+news
+client
+footer
+responsive
+---*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*--- icon font ---*/
+@import url('../font/css/font-awesome.min.css');
+@import url('../font/pe-icon-7-stroke/css/pe-icon-7-stroke.css');
+/*--- bootstrap ---*/
+@import url('../css/bootstrap.min.css');
+/*--- animate ---*/
+@import url('../css/animate.min.css');
+
+
+@import 'variables';
+@import 'loading';
+@import 'body';
+@import 'navbar';
+@import 'mainheader';
+@import 'insideheader';
+@import 'about';
+@import 'features';
+@import 'services';
+@import 'px-bg';
+@import 'news';
+@import 'client';
+@import 'mission';
+@import 'ourteam';
+@import 'casestudies';
+@import 'contact';
+@import 'footer';
+@import 'responsive';
+
+
+

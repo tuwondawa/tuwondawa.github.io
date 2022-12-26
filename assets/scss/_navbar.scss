@@ -1,0 +1,102 @@
+/*--- navbar ---*/
+
+.affix-top {
+	top: 75px;
+}
+.navbar-right {
+	margin-right: 0;
+}
+.top-social a {
+	color: $white-color;
+}
+.top-social a:hover {
+	color: #000;
+}
+.top-nav li {
+	display: inline;
+	color: #fff;
+	margin-right: 10px;
+}
+.navbar-nav li {
+	float: left;
+	position: relative;
+}
+.navbar-inverse {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 0;
+	margin-bottom: 0;
+	min-height: auto;
+	.navbar-nav li a {
+		color: $titleFont-color;
+		padding-bottom: 40px;
+		padding-top: 25px;
+		font-weight: 600;
+	}
+	.navbar-nav li a:focus,
+	.navbar-nav li a:hover {
+		background-color: rgba(0, 0, 0, 0);
+		color: $titleFont-color;
+	}
+}
+.navbar-inverse .navbar-nav > li.open > a,
+.navbar-inverse .navbar-nav > li.open > a:hover,
+.navbar-inverse .navbar-nav > li.open > a:focus {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	color: $titleFont-color;
+}
+.navbar-nav li .dropdown-menu {
+	border-radius: 0;
+	padding: 20px 20px 0px;
+}
+.navbar-nav li .dropdown-menu li::after {
+	bottom: 13px;
+}
+.dropdown-menu.arrow li {
+	width: 100%;
+}
+.navbar-inverse .navbar-nav .dropdown-menu.arrow a {
+	color: rgb(0, 0, 0) !important;
+	height: 30px;
+	margin: 0 0 18px;
+	padding: 0;
+}
+.top-nav {
+	background: $blue-color;
+	padding: 20px 0;
+	.top-social li {
+		display: inline;
+		margin-left: 10px;
+		margin-right: 0;
+	}
+}
+.affix {
+	background: $white-color none repeat scroll 0 0;
+	position: fixed;
+	.nav.navbar-nav a {
+		height: 75px;
+	}
+	.in-disktop {
+		display: none;
+	}
+	.in-mobile {
+		margin-top: 28px;
+	}
+}
+.navbar-fixed-top {
+	transition: all 0.3s ease 0s;
+}
+.affix-top .in-mobile {
+	display: none;
+}
+.nav.navbar-nav li::after {
+	background: $blue-color;
+	content: "";
+	height: 4px;
+	position: absolute;
+	width: 0;
+	transition: all 0.5s ease 0s;
+}
+.nav.navbar-nav li:hover::after {
+	width: 100%;
+}

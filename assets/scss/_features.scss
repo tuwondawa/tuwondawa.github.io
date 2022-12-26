@@ -1,0 +1,41 @@
+/*--- features ---*/
+
+.features {
+	padding: 100px 0;
+	background: $white-color2;
+	
+	.features-img {
+		height: 290px;
+		overflow: hidden;
+		width: 100%;
+		position: relative;
+	}
+	.features-hover {
+		bottom: -30px;
+		color: $white-color;
+		padding: 10px 30px;
+		position: absolute;
+		transition: all 0.3s ease 0s;
+		a:hover {
+			color: $green-color;
+		}
+		a::before {
+			color: $green-color;
+			content: "";
+			font-family: fontawesome;
+			margin-right: 5px;
+		}
+		a {
+			color: $white-color;
+		}
+		h4 {
+			font-size: 22px;
+			font-weight: 400;
+			margin-top: 20px;			
+		}
+	}
+	.features-img:hover .features-hover {
+		bottom: 20px;
+	}
+}
+
